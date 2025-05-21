@@ -1,10 +1,8 @@
 import logging
 from attendance_check import fetch_attendance_data
 from attendance_function import get_list_no_checkout
-import attendance_function
 from datetime import datetime
 import asyncio
-
 
 async def get_name_and_date(gisu):
     P2 = gisu
@@ -18,15 +16,13 @@ async def all_request_checkout(gisu):
 
     dailyAttendence = fetch_attendance_data(P2,today_date)
 
-    print(dailyAttendence)
+    logging.info(dailyAttendence)
 
     list_no_checkout = get_list_no_checkout(dailyAttendence)
 
     logging.basicConfig(filename='logs/logs.txt', level=logging.INFO, format='%(asctime)s - %(message)s', encoding='utf-8')
 
     logging.info(f"[INFO] {gisu}기 중 퇴실 체크하지 않은 사람 : {list_no_checkout}")
-
-    print(f"[INFO] {gisu}기 중 퇴실 체크하지 않은 사람 : {list_no_checkout}")
 
 
 # 최상위에서 실행
