@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="163e31fb-5e7f-4595-8d08-54ad58acd363" name="변경" comment="" />
+    <list default="true" id="163e31fb-5e7f-4595-8d08-54ad58acd363" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discord_bot_back.py" beforeDir="false" afterPath="$PROJECT_DIR$/discord_bot_back.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,22 +31,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.attendance_function.executor": "Run",
-    "Python.discord_bot_back.executor": "Run",
-    "Python.is_all_finished.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "//wsl.localhost/Ubuntu-22.04/home/kim/code/DiscordBot",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.attendance_function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.discord_bot_back.executor&quot;: &quot;Run&quot;,
+    &quot;Python.is_all_finished.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu-22.04/home/kim/code/DiscordBot&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="\\wsl.localhost\Ubuntu-22.04\home\kim\code\DiscordBot" />
@@ -101,7 +105,12 @@
       <workItem from="1747655127089" duration="2271000" />
       <workItem from="1747730148619" duration="1726000" />
       <workItem from="1747739691705" duration="2634000" />
-      <workItem from="1747817802985" duration="1981000" />
+      <workItem from="1747817802985" duration="2558000" />
+      <workItem from="1747895906183" duration="2653000" />
+      <workItem from="1747975260901" duration="2988000" />
+      <workItem from="1748336228661" duration="877000" />
+      <workItem from="1748422088921" duration="3991000" />
+      <workItem from="1748509286098" duration="1522000" />
     </task>
     <servers />
   </component>

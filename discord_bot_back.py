@@ -57,7 +57,6 @@ async def not_yet_attendence(guild, P2, today_date):
     new_df = df[df['cstmrNm'].isin(students)].copy()
 
     attendance_function.save_api_debug_log(new_df, P2, today_date)
-
     return discord_response
 
 async def get_name_and_date(guild_name):
@@ -81,31 +80,6 @@ async def 퇴실체크(ctx):
         await ctx.send(" ".join(discord_response) + " 퇴실 체크 하셔야 합니다!" )
     else:
         await ctx.send("모든 사람이 퇴실 체크를 완료했습니다.")
-
-async def all_request_checkout():
-
-    #봇이 포함된 서버 리스트인 guild_list를 순환
-    for guild in guild_list:
-
-        guild_name = guild.name
-
-        print(f"guild_name : {guild_name}")
-
-        P2, today_date= await get_name_and_date(guild_name)
-
-        discord_response = not_yet_attendence(guild, P2, today_date)
-
-        channel = discord.utils.get(guild.text_channels, name="general")  # 'general' 채널로 지정
-
-        print(f" discord_response :{discord_response}")
-        if discord_response:
-            await channel.send("오늗도 고생하셨습니다. 퇴실 체크 부탁드립니다!" + " ".join(discord_response))
-        else:
-            await channel.send("모든 사람이 퇴실 체크를 완료했습니다.")
-
-@app.get("/ping")
-async def ping(P2: str, today_date: str):
-    await all_request_checkout()
 
 # FastAPI & Discord 봇 동시에 실행
 async def main():
